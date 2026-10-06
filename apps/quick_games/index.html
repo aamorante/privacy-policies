@@ -1,206 +1,248 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta
-        name="description"
-        content="Privacy Policy for Quick Games"
-    >
+    <meta name="description" content="Privacy Policy for Quick Games">
     <title>Privacy Policy - Quick Games</title>
-    <link rel="stylesheet" href="../../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-dark: #0F0F0F;
+            --bg-card: rgba(255, 255, 255, 0.03);
+            --border-card: rgba(124, 77, 255, 0.25);
+            --accent-purple: #7C4DFF;
+            --accent-teal: #00BFA5;
+            --text-main: #FFFFFF;
+            --text-muted: rgba(255, 255, 255, 0.7);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: linear-gradient(135deg, var(--bg-dark) 0%, #1A1A2E 100%);
+            color: var(--text-main);
+            min-height: 100vh;
+            padding: 40px 20px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .page-header {
+            text-align: center;
+            margin-bottom: 50px;
+            padding: 30px;
+            background: var(--bg-card);
+            border: 1px solid var(--border-card);
+            border-radius: 24px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+        }
+
+        .page-header h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+            margin-bottom: 10px;
+            background: linear-gradient(90deg, #FFFFFF, #B388FF);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .page-header p {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+        }
+
+        .page-header p strong {
+            color: var(--accent-purple);
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+        }
+
+        .last-updated {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 6px 16px;
+            background: rgba(124, 77, 255, 0.15);
+            border: 1px solid rgba(124, 77, 255, 0.3);
+            border-radius: 50px;
+            font-size: 0.85rem;
+            color: #D1C4E9 !important;
+        }
+
+        section {
+            background: var(--bg-card);
+            border: 1px solid var(--border-card);
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 24px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s ease, border-color 0.2s ease;
+        }
+
+        section:hover {
+            border-color: rgba(124, 77, 255, 0.5);
+            transform: translateY(-2px);
+        }
+
+        h2 {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #B388FF;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        p {
+            color: var(--text-muted);
+            margin-bottom: 15px;
+            font-size: 1rem;
+        }
+
+        p:last-child {
+            margin-bottom: 0;
+        }
+
+        strong {
+            color: var(--text-main);
+        }
+
+        ul {
+            margin: 15px 0 15px 20px;
+            color: var(--text-muted);
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        li::marker {
+            color: var(--accent-purple);
+        }
+
+        .contact-box {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 12px 24px;
+            background: rgba(0, 191, 165, 0.15);
+            border: 1px solid rgba(0, 191, 165, 0.3);
+            border-radius: 12px;
+            color: var(--accent-teal);
+            font-weight: 600;
+            text-decoration: none;
+            transition: background 0.2s;
+        }
+
+        .contact-box:hover {
+            background: rgba(0, 191, 165, 0.25);
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 20px 12px;
+            }
+            .page-header {
+                padding: 20px;
+            }
+            .page-header h1 {
+                font-size: 2rem;
+            }
+            section {
+                padding: 20px;
+            }
+        }
+    </style>
 </head>
 
 <body>
     <main class="container">
 
-```
-    <header class="page-header">
-        <h1>Privacy Policy</h1>
-        <p>
-            <strong>Quick Games</strong>
-        </p>
-        <p class="last-updated">
-            Last updated: September 1, 2026
-        </p>
-    </header>
+        <header class="page-header">
+            <h1>Privacy Policy</h1>
+            <p><strong>Quick Games</strong></p>
+            <div class="last-updated">Last updated: September 1, 2026</div>
+        </header>
 
-    <section>
-        <h2>1. Introduction</h2>
+        <section>
+            <h2>1. Introduction</h2>
+            <p>This Privacy Policy explains how <strong>MCube</strong> handles information in <strong>Quick Games</strong>.</p>
+            <p>We respect your privacy and aim to collect and use only the information necessary to operate, maintain, and improve the App.</p>
+        </section>
 
-        <p>
-            This Privacy Policy explains how
-            <strong>MCube</strong> handles information in
-            <strong>Quick Games</strong>.
-        </p>
+        <section>
+            <h2>2. Information We Collect</h2>
+            <p>The App does not require you to provide personal information such as your name, email address, phone number, or postal address.</p>
+            <p>The App may store information related to your gameplay, such as game progress, scores, statistics, settings, or other information generated through your use of the App.</p>
+            <p>Depending on how the App is used, technical information may also be processed by third-party services described below.</p>
+        </section>
 
-        <p>
-            We respect your privacy and aim to collect and use
-            only the information necessary to operate, maintain,
-            and improve the App.
-        </p>
-    </section>
+        <section>
+            <h2>3. Firebase Crashlytics</h2>
+            <p>We use Firebase Crashlytics, a service provided by Google, to help us detect, diagnose, and fix crashes and technical problems in the App.</p>
+            <p>Crashlytics may process technical information associated with crashes, such as device information, operating system information, application version, crash data, and other diagnostic information.</p>
+            <p>This information is used for the purpose of improving the stability and performance of the App.</p>
+        </section>
 
-    <section>
-        <h2>2. Information We Collect</h2>
+        <section>
+            <h2>4. Advertising</h2>
+            <p>The App uses Google AdMob to display advertisements. AdMob is a service provided by Google.</p>
+            <p>Depending on the user's device, settings, location, and applicable privacy requirements, Google and its advertising partners may process information such as advertising identifiers, device information, and information related to advertising interactions in order to provide, measure, and improve advertising.</p>
+            <p>Advertising practices may also depend on the user's consent and applicable laws and regulations.</p>
+        </section>
 
-        <p>
-            The App does not require you to provide personal
-            information such as your name, email address, phone
-            number, or postal address.
-        </p>
+        <section>
+            <h2>5. Third-Party Services</h2>
+            <p>The App uses the following third-party services:</p>
+            <ul>
+                <li>Google AdMob</li>
+                <li>Firebase Crashlytics</li>
+            </ul>
+            <p>These services may process information in accordance with their own privacy policies and terms.</p>
+        </section>
 
-        <p>
-            The App may store information related to your gameplay,
-            such as game progress, scores, statistics, settings,
-            or other information generated through your use of
-            the App.
-        </p>
+        <section>
+            <h2>6. Data Retention</h2>
+            <p>We retain information only for as long as reasonably necessary for the purposes described in this Privacy Policy, unless a longer retention period is required by law.</p>
+            <p>Data processed by third-party services such as Google AdMob and Firebase Crashlytics may be subject to their respective retention policies.</p>
+        </section>
 
-        <p>
-            Depending on how the App is used, technical information
-            may also be processed by third-party services described
-            below.
-        </p>
-    </section>
+        <section>
+            <h2>7. Children's Privacy</h2>
+            <p>The App is not intended to knowingly collect personal information directly from children.</p>
+            <p>If you believe that a child has provided personal information through the App, please contact us so that we can take appropriate action.</p>
+        </section>
 
-    <section>
-        <h2>3. Firebase Crashlytics</h2>
+        <section>
+            <h2>8. Your Rights</h2>
+            <p>Depending on your location and applicable law, you may have rights regarding your personal information, including rights to access, delete, restrict, or object to certain processing of your information.</p>
+            <p>To exercise applicable rights or ask questions about privacy, please contact us using the information below.</p>
+        </section>
 
-        <p>
-            We use Firebase Crashlytics, a service provided by
-            Google, to help us detect, diagnose, and fix crashes
-            and technical problems in the App.
-        </p>
+        <section>
+            <h2>9. Changes to This Privacy Policy</h2>
+            <p>We may update this Privacy Policy from time to time. When we make changes, we will update the "Last updated" date shown at the top of this page.</p>
+        </section>
 
-        <p>
-            Crashlytics may process technical information associated
-            with crashes, such as device information, operating
-            system information, application version, crash data,
-            and other diagnostic information.
-        </p>
+        <section>
+            <h2>10. Contact</h2>
+            <p>If you have any questions or concerns about this Privacy Policy, please contact us at:</p>
+            <p><a href="mailto:mcubemobileapps@gmail.com" class="contact-box">mcubemobileapps@gmail.com</a></p>
+        </section>
 
-        <p>
-            This information is used for the purpose of improving
-            the stability and performance of the App.
-        </p>
-    </section>
-
-    <section>
-        <h2>4. Advertising</h2>
-
-        <p>
-            The App uses Google AdMob to display advertisements.
-            AdMob is a service provided by Google.
-        </p>
-
-        <p>
-            Depending on the user's device, settings, location,
-            and applicable privacy requirements, Google and its
-            advertising partners may process information such as
-            advertising identifiers, device information, and
-            information related to advertising interactions in
-            order to provide, measure, and improve advertising.
-        </p>
-
-        <p>
-            Advertising practices may also depend on the user's
-            consent and applicable laws and regulations.
-        </p>
-    </section>
-
-    <section>
-        <h2>5. Third-Party Services</h2>
-
-        <p>
-            The App uses the following third-party services:
-        </p>
-
-        <ul>
-            <li>Google AdMob</li>
-            <li>Firebase Crashlytics</li>
-        </ul>
-
-        <p>
-            These services may process information in accordance
-            with their own privacy policies and terms.
-        </p>
-    </section>
-
-    <section>
-        <h2>6. Data Retention</h2>
-
-        <p>
-            We retain information only for as long as reasonably
-            necessary for the purposes described in this Privacy
-            Policy, unless a longer retention period is required
-            by law.
-        </p>
-
-        <p>
-            Data processed by third-party services such as Google
-            AdMob and Firebase Crashlytics may be subject to their
-            respective retention policies.
-        </p>
-    </section>
-
-    <section>
-        <h2>7. Children's Privacy</h2>
-
-        <p>
-            The App is not intended to knowingly collect personal
-            information directly from children.
-        </p>
-
-        <p>
-            If you believe that a child has provided personal
-            information through the App, please contact us so that
-            we can take appropriate action.
-        </p>
-    </section>
-
-    <section>
-        <h2>8. Your Rights</h2>
-
-        <p>
-            Depending on your location and applicable law, you may
-            have rights regarding your personal information,
-            including rights to access, delete, restrict, or object
-            to certain processing of your information.
-        </p>
-
-        <p>
-            To exercise applicable rights or ask questions about
-            privacy, please contact us using the information below.
-        </p>
-    </section>
-
-    <section>
-        <h2>9. Changes to This Privacy Policy</h2>
-
-        <p>
-            We may update this Privacy Policy from time to time.
-            When we make changes, we will update the "Last updated"
-            date shown at the top of this page.
-        </p>
-    </section>
-
-    <section>
-        <h2>10. Contact</h2>
-
-        <p>
-            If you have any questions or concerns about this
-            Privacy Policy, please contact us at:
-        </p>
-
-        <p>
-            <strong>mcubemobileapps@gmail.com</strong>
-        </p>
-    </section>
-
-</main>
-```
-
+    </main>
 </body>
 </html>
